@@ -1,0 +1,19 @@
+<odoo>
+
+        <record model="reports.page." id="page0">
+            <field name="name">Page 0</field>
+            <field name="description">page 0's description
+
+Can have multiple lines
+            </field>
+        </record>
+        <record model="reports.page" id="page1">
+            <field name="name">Page 1</field>
+
+        </record>
+        <record model="reports.page" id="page2">
+            <field name="name">Page 2</field>
+            <field name="description">Page 2's description</field>
+        </record>
+
+</odoo>

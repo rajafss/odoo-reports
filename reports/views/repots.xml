@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+          <record model="ir.ui.view" id="page_form_view">
+            <field name="name">page.form</field>
+            <field name="model">reports.page</field>
+            <field name="arch" type="xml">
+                <form string="Page Form">
+                    <header>
+                        <button class="btn btn-secondary" name="action_print"
+                                string="Report1" type="object"/>
+                    </header>
+                    <sheet>
+                        <group style="direction: rtl;">
+                            <h2 style="direction: rtl;padding-left: 30px;">
+                                <u>نموذج طلب خدمات العماله المنزلية</u></h2>
+                            <br></br>
+                            <strong style="direction: rtl;padding-left: 300px;">الإسم:...............</strong><br></br>
+                            <strong style="direction: rtl;padding-left: 300px;">جوال1:................</strong>
+                            <strong style="direction: rtl;padding-left: 500px; margin: 40px">جوال2:................</strong>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="page_list_action">
+            <field name="name">Pages</field>
+            <field name="res_model">reports.page</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first Page
+                </p>
+            </field>
+        </record>
+
+        <!-- top level menu -->
+        <menuitem id="main_reports_menu" name="Reports"/>
+        <menuitem id="reports_menu" name="Reports"
+                  parent="main_reports_menu"/>
+
+        <menuitem id="pages_menu" name="Pages" parent="reports_menu"
+                  action="page_list_action"/>
+
+
+</odoo>

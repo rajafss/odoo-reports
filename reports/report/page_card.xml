@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_page_card">
+    <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.external_layout">
+                <div class="page" style="direction: rtl;">
+                    <div class="row" style="direction: rtl;">
+                        <div class="column">
+                            <h1 Style="padding-right:80px;"><u>نموذج طلب خدمات العماله المنزلية</u></h1>
+                        </div>
+                        <div class="column" style="padding-right:40px ">
+                            <h2 style="border:2px solid black;height:60px;">التاريخ: / /2021</h2>
+                        </div>
+                        <div class="column" style="padding-right:40px ">
+                            <div class="row">
+                                <table style="border:2px solid black;width:200px;height:100px">
+                                    <tr>
+                                        <th><h4>A</h4></th>
+                                    </tr>
+                                    <th style="border:2px solid black;text-align:right"><h4>رقم التوسيط:</h4></th>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="direction: rtl;">
+                        <h4 style="direction: rtl;">
+                                <u>البيانات الشخصية</u>
+                        </h4>
+                    </div>
+                    <br></br>
+                    <div class="row" style="direction: rtl;">
+                        <h4 style="direction: rtl;">الإسم:................................................</h4><br></br>
+                    </div>
+                    <div class="row" style="direction:rtl">
+                        <h4>جوال1:...........................</h4>
+                        <h4>جوال2:.............................</h4>
+                        <h4>جوال3:............................</h4>
+                        <br></br>
+                        <br></br>
+                    </div>
+                    <div class="row" style="direction: rtl;">
+                        <h4>كيف سمعت عن أجير العالمية للاستقدام؟</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="direction: rtl;">
+                        <tr>
+                        <h4>الموقع الرسمي:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                        <h4>تويتر:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                        <h4>الأصدقاء:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                        <h4>الانترنت:</h4>
+                        <h4 style="border:2px solid black;width:40px "></h4>
+                        </tr>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="direction:rtl;">
+                        <h4><u>معلومات السكن:</u></h4><br/>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="direction:rtl;">
+                        <h4>المنطقة:............. المدينة:..............</h4>
+                        <br/>
+                        <h4>الحي:..............</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <div class="column" style="padding-right:20px">
+                            <div class="row" style="direction:rtl;">
+                                <h4>حجم المنزل:</h4>
+                                <h4>كبير</h4>
+                                <h4 style="border:2px solid black;width:40px  "></h4>
+                                <h4>متوسط</h4>
+                                <h4 style="border:2px solid black;width:40px  "></h4>
+                                <h4>صغير</h4>
+                                <h4 style="border:2px solid black;width:40px  "></h4>
+                            </div>
+                            <br></br>
+                            <br></br>
+                             <div class="row" style="direction:rtl;">
+                                 <h4>نوع المنزل:</h4>
+                                 <h4>فلة</h4>
+                                 <h4 style="border:2px solid black;width:40px  "></h4>
+                                 <h4>دور واحد</h4>
+                                 <h4 style="border:2px solid black;width:40px  "></h4>
+                                 <h4>شقة</h4>
+                                 <h4 style="border:2px solid black;width:40px  "></h4>
+                             </div>
+                             <br></br>
+                             <div class="row" style="direction:rtl;">
+                                 <h4>حالة المنزل:</h4>
+                                 <h4>ملك</h4>
+                                 <h4 style="border:2px solid black;width:40px  "></h4>
+                                 <h4>ايجار</h4>
+                                 <h4 style="border:2px solid black;width:40px  "></h4>
+                             </div>
+
+                        </div>
+                        <div class="column" style=" padding-right: 350px">
+                            <div style="border:2px solid black;height:250px; width: 300px;">
+                                <h3 style="text-align:center;background-color: hsla(50, 33%, 25%, .75);direction:rtl">طلب مساند</h3>
+                                <br></br>
+                                <h4 style="text-align:right">الخبرة العلمية:..........................</h4>
+                                <br></br>
+                                <h4 style="text-align:right;direction:rtl">الديانة:........................</h4><br></br>
+                                <h4 style="text-align:right">العمر:......................</h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row" style="direction:rtl;">
+                        <h4>أرغب في استقبال الخادمة في المطار:الملك<h><u> خالد الدولي </u></h> .</h4>
+                    </div>
+                    <div class="row" style="direction:rtl;">
+                        <h4><u>معلومات الاسرة:</u></h4>
+                    </div>
+                    <div class="row" style="direction:rtl;">
+                        <h4>عدد أفراد العائلة:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                        <h4>عدد الأطفال:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                        <h4>عدد كبار السن:</h4>
+                        <h4 style="border:2px solid black;width:40px  "></h4>
+                    </div>
+                    <div class="row" style="padding-right:300px">
+                            <h4><u>نوع العقد:</u></h4>
+                            <h4><u>(يرجى وضع علامة من العميل او الموظف المختص).</u></h4>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="padding-right:80px">
+                            <div class="row">
+                                <h4>سائق خاص</h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4 style="border: 2px solid black;width:80px;height:80px"></h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4>الجنسية:...........</h4>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div style="border-left: solid black;height:300px; width: 150px;padding-right:100px">
+                            </div>
+                        </div>
+                        <div class="column" style="padding-right:200px">
+                            <div class="row">
+                                <h4>حسب المواصفات</h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4 style="border: 2px solid black;width:80px;height:80px"></h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4>المواصفات المطلوبة:</h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4>....................</h4>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div style="border-left: solid black;height:300px; width: 150px;padding-right:100px">
+
+                            </div>
+                        </div>
+                        <div class="column" style="padding-right:80px">
+                            <div class="row">
+                                <h4>حسب السيرة الذاتية:</h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <h4 style="border: 2px solid black;width:80px;height:80px"></h4>
+                            </div>
+                            <br></br>
+                            <div class="row">
+                                <p>*في حال وضعx يرجى ارفق السيرة الذاتية.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4><u>تعهد:</u></h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h3>.</h3>
+                        <h4 style="padding-right:40px ;text-align:right">التزم بتزويد العامل/العاملة برقم جوال خاص بها عند حضورها من دولتها............الى المملكة العربية السعودية في مدة اقصاهاثلاثة ايام القادمة وارسال رقم الجوال الى احد موظفي اجير العالمية.
+                        </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h3>.</h3>
+                        <h4 style="padding-right:40px;text-align:right">لا مانع في حالة تعثر استقدام الخادمة لاي سبب فانه يحق لمكتب اجير العالمية للاستقدام اختيار خادمة بديلة بنفس الشروط الموضوعة من قبل العميل دون الرجوع الى.
+                                </h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h3>.</h3>
+                        <h4 style="padding-right:40px;text-align:right">
+                            التزم في حال رغبتي باحضار الخادمة الى مكتب اجير العالمية للاستقدام بالتواصل مع احد موظفيه و التنسيق معه لاخذ موعد قبل الحضور الى مقر اجير العالمية.
+                        </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h3>.</h3>
+                        <h4 style="padding-right:40px;text-align:right">
+                                 التزم بعدم نقل كفالة العاملة لمدة سنتين كاملة الا بعد موافقة خطية و ختم رسمي من مكتب اجير العالمية للاستقدام وفي حال نقل كفالتها بدون مراجعة اجير العالمية يتم<u> اللجوء للجنة المخالفات العمالية.</u>
+                        </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <div class="column" style="padding-right:40px">
+                            <div class="row" >
+                                <h4>توقيع العميل:................................</h4>
+                            </div>
+                            <br></br>
+                            <br></br>
+                            <div class="row" style="direction:rtl;">
+                                <h4>اسم الموظف المنفذ:.............</h4>
+                                <h4 style="text-align:right">التوقيع:..............</h4>
+                                <h4>هل تم الدفع من قبل العميل؟.</h4>
+                                <h4 style="text-align:right">نعم</h4>
+                                <h4 style="border:2px solid black;width:40px"></h4>
+                                <h4 style="text-align:right">لا</h4>
+                                <h4 style="border:2px solid black;width:40px"></h4>
+                            </div>
+                        </div>
+
+                        <div class="column" style="padding-right:100px; ">
+                            <div class="card" style="padding:12px 10px;">
+                                <div class="container" style=" border:2px solid black;padding: 2px 16px">
+                                    <h4 style="text-align:center;background-color: hsla(50, 33%, 25%, .75);">للاستعمال الرسمي</h4>
+                                    <br></br>
+                                    <h4 style="text-align:right">اسم الوكيل:..................</h4>
+                                    <h4 style="text-align:right">تاريخ الرابط:/ /2021</h4>
+                                    <h4 style="text-align:right">اسم المنفذ:...................</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <div class="column" style="padding-right:40px">
+                            <div class="row" >
+                                <h4 style="direction:rtl"> توقيع المدير العام او الرئيس التنفيذي:......................الختم</h4>
+                            </div>
+                            <br></br>
+                            <br></br>
+                            <div class="row">
+                                <h3>.</h3>
+                                <h4 style="padding-right:20px">
+                                    <u>لا يعتمد العقد من موظف التسويق قبل الدفع.</u>
+                                </h4>
+                            </div>
+                            <br></br>
+                            <br></br>
+                            <div class="row">
+                                <h3>.</h3>
+                                <h4 style="padding-right:20px;direction:rtl">
+                                    <u>يجب على المدير العام و الرئيس التنفيذي اعتماده بعد جميع الموظفين.</u>
+                                </h4>
+                            </div>
+
+                        </div>
+                        <div class="column" style="padding-right:100px">
+                             <div style="border:2px solid black;height:150px; width: 150px;">
+                                <h3 style="background-color: hsla(50, 33%, 25%, .75);direction:rtl"></h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="padding-right:700px">
+                        <table style="border:2px solid black; width:300px;height:40px">
+                            <td style="text-align:right;border:2px solid black;background-color: hsla(50, 33%, 25%, .75);">التاريخ</td>
+                            <td style="text-align:center"> / /2021</td>
+                        </table>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="padding-right:200px">
+                        <h4><u>اتفاقية فحص عاملة منزلية فحص كورونا عند ارجاع العاملة</u></h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="direction:right">
+                        <h4 style="padding-right:5px;text-align:right">انا المواطن/......................الهوية الوطنية.....................
+                            اتعهد عند ارجاع العاملة المنزلية لمكتب
+                            اجير العالمية للاستقدام خلال فترة التجربة او باي وقت و
+                            لاي سبب بفحصها فحص كورونا حيث ان مكتب اجير العالمية
+                        للاستقدام
+                            له الاحقية بعدم استلام العاملة الا بشهادة
+                            فحص كورونا (سلبية) او بدفع 250 ريال رسوم الفحص.</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>اسم العاملة........................رقم جواز العاملة....................</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">اقرا و اتعهد بتفهمي جميع بنود هذه الاتفاقية وقد قمت بقراءتها جيدا
+                            و بعناية و تعتبر نافذة المفعول من التاريخ اعلاه
+                            و لا يحق لي المطالبة لاي مبالغ تخص قيمة
+                            (فحص العاملة فحص كورونا). ولا يحق لي المطالبة
+                        باي مبالغ من مكتب اجير العالمية للاستقدام تخص هذه الاتفاقية</h4>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">عند وجود خلاف حو هذه الاتفاقية فيحق لاجير العالمية للاستقدام اللجوء للمحكمة العامة او المحكمة العمالية بالرياض و مقاضاتي قانونيا بنقص هذه الاتفاقية</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>اسم المواطن/...............................رقم الهوية الوطنية/............................................................
+                        </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>رقم عقد نقل الخدمات او الاستقدام:(....................)</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>التاريخ </h4>
+                        <h4>/       / 2021 </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>التوقيع/</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+                    <div class="row">
+                        <div class="column">
+                            <h4  style="padding-right:80px">اتفاقية استقبال عاملة منزلية وفق العقد رقم.........</h4>
+                        </div>
+                        <div class="column" style="padding-right:200px">
+                             <h4 style="padding-right:200px">و تاريخ:......./.........../2021</h4>
+                        </div>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="text-decoration: underline;">
+                       <h4> بناء على عقد الاستقدام رقم.......</h4>
+                        <h4 style="padding-right:100px">و تاريخ:...../....../2021</h4>
+                        <h4 style="padding-right:200px">|        و المتضمن التعاقد على استقدام
+                        </h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>عاملة منزلية من........................................................</h4>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>عليه فقد تم الاتفاق بين الطرفين على الخدمات الاتية:</h4>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h2 style="padding-right:20px">.</h2>
+                        <h4 style="padding-right:40px">خدمة استقبال العاملة و تسليمها لصاحب العمل/................رقم الهوية....................</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="padding-right:80px;text-align:right">بيانات التواصل:الجوال الاول..................الجوال الثاني..................................................................................الهاتف المنزلي..............................................</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h2 style="padding-right:20px">.</h2>
+                        <h4 style="padding-right:40px">على صاحب العمل استلام العاملة المنزلية من مقر الايواء المكتب في مدينة
+                            الرياض العنوان المروج</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="padding-right:60px">رابط الموقع:</h4>
+                        <h4><u>https://goo.gl/maps/1jZ9ABWOZfC86eDv6</u></h4>
+                    </div>
+                    <br></br>
+
+                    <div class="row">
+                        <h4 style="padding-right:60px">فور وصلها الى للمقر و فترة لا تتجاوز (24) ساعة من وصولهامن لمطار وتبليغه بوصولها. </h4>
+                    </div>
+
+                    <br></br>
+                    <div class="row">
+                        <h2 style="padding-right:20px">.</h2>
+                        <h4 style="padding-right:40px">و في حال تاخر صاحب العمل على الموعد المتفق عليه.فانه يتحمل تكاليف الاستقبال و
+                            الايواء وفق التكلفة اليومية الاتية:</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                            <h4>تكلفة الخدمات:</h4>
+                    </div>
+                    <div class="row" style="padding-right:80px">
+                        <table  class="w3-table" style="border:2px solid black;width:900px;height:100px;">
+                            <tr>
+                                <th colspan="2" style="border:2px solid black;
+                                text-align:center;background-color: hsla(50, 33%, 25%, .75);">تكلفة الخدمة</th>
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;
+                                text-align:right">تكلفة الايواء اليومية وصول العاملة ب 24 ساعة</td>
+                                <td style="border:2px solid black;text-align:center"> ريال(150)</td>
+
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;
+                                text-align:right">اذ رغب العميل بنقل و توصيل العاملة الى مقر صاحب العمل</td>
+                                <td style="border:2px solid black;text-align:center"> ريال(200)</td>
+
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;
+                                text-align:right">خدمة الفحص الطبي ببعاملة</td>
+                                <td style="border:2px solid black;text-align:center"> ريال(250)</td>
+
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;
+                                text-align:right">خدمات اخرى يتم الاتفاق عليه(...............)</td>
+                                <td style="border:2px solid black;text-align:center"> ريال(  )</td>
+
+                            </tr>
+
+                        </table>
+
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="padding-right:40px">
+                        <h4 style="text-align:right">عليه فقد تم الاتفاق على هذه الاتفاقية.ويسري ما تم الاتفاق عليه من تاريخ وصول العاملة للمملكة وفق ما تم الاتفاق عليه في عقد الاستقدام.</h4>
+
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="padding-right:80px">
+                        <table style="border:2px solid black;width:900px;height:100px;">
+                            <tr>
+                                <th style="border:2px solid black;
+                                text-align:center;background-color: hsla(50, 33%, 25%, .75);">الطرف الاول(اجير العالمية للاستقدام)</th>
+                                <th style="border:2px solid black;
+                                text-align:center;background-color: hsla(50, 33%, 25%, .75);">الطرف الثاني</th>
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;text-align:right">اسم الموظف :</td>
+                                <td style="border:2px solid black;text-align:right">الاسم:</td>
+
+                            </tr>
+                             <tr>
+                                <td style="border:2px solid black;text-align:right">الوظيفة  :</td>
+                                <td style="border:2px solid black;text-align:right">رقم الهوية :</td>
+
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;text-align:right">التوقيع  :</td>
+                                <td style="border:2px solid black;text-align:right">التاريخ  :</td>
+
+                            </tr>
+                            <tr>
+                                <td style="border:2px solid black;text-align:right"> التاريخ  :</td>
+                                <td style="border:2px solid black;text-align:right">التوقيع  :</td>
+
+                            </tr>
+                            <tr>
+                                <td style="text-align:right"> الختم  :</td>
+                                <td></td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">:التوقيعات</h4>
+                        <h4 style="padding-right:900px">:Signatures</h4>
+
+                    </div>
+                    <br></br>
+                    <div class="row" style="padding-right:80px">
+                        <table style="border:2px solid black;width:900px;height:100px;">
+                            <tr>
+                                <th style="border:2px solid black;
+                                text-align:center;
+                                background-color: hsla(50, 33%, 25%, .75);">وكالة الاستقدام الاجنبية
+                                    Foreign Recruitement Agency</th>
+                                <th style="border:2px solid black;
+                                text-align:center;
+                                background-color: hsla(50, 33%, 25%, .75);" > العاملة المنزلية/العامل المنزلي Domestic Service Work</th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <td style="border:2px solid black;height:100px"></td>
+
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th  style="border:2px solid black;text-align:center;
+                                background-color: hsla(50, 33%, 25%, .75);" >صاحب العمل Employer </th>
+                                <th style="border:2px solid black;text-align:center;
+                                background-color: hsla(50, 33%, 25%, .75);" > وكالة الاستقدام السعودية Soudi Recruitement Agency</th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <td style="border:2px solid black;height:100px"></td>
+
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row" style="padding-right:700px">
+                        <table style="border:2px solid black; width:300px;height:40px">
+                            <td style="text-align:right;border:2px solid black;background-color: hsla(50, 33%, 25%, .75);">التاريخ</td>
+                            <td style="text-align:center"> / /2021</td>
+                        </table>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>سعادة/مدير عام مكتب اجير العالمية للاستقدام</h4>
+                        <h4 style="padding-right:300px">المحترم ،،،</h4>
+
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>السلام عليكم و رحمة اللّه و بركاته،،،</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="padding-right:900px">تحية طيبة و بعد:-</h4>
+                    </div>
+                    <br></br>
+                    <div class="row" style="padding-right:300px">
+                        <h4><u>اتفاقية التكفل برسوم المواصلات و التذكرة الداخلية و ايواء العاملة</u></h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">انا المواطن/.........................................اتعهد بدفع 150 ريال عن كل يوم تاخير بعد وصول العاملة
+                            ب 24 ساعة وذلك حسب بنود عقد مساند رقم(............) حيث انه يحق للطرف
+                            الاول فرض رسوم الايواء عند تاخير باستلام العاملة ب 24 ساعةالاولى.</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">وفي حالة اني ارغب باستلام العاملة خارج مدينة الرياض فانني على علم
+                            برسوم التوصيل من مقر ايواء مكتب اجير العالمية للاستقدام (الرياض-المروج) الى مطار خالد الدولي و هي 100 ريال تدفع لمرة واحدة.</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">اقرا بعلمي بتحمل تكلفة الرحلة الداخلية ايضا على حساب الخاص (850 ريال) في حال طلب استلام العاملة خارج مدينة الرياض.</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">اقرا واتعهد بتفهمي جميع بنود هذه الاتفاقية وقد قمت بقراءتها جيدا و بعناية وتعتبر نافذة المفعول من التاريخ اعلاه ولا يحق لي المطالبة باي مبالغ تخص قيمة (ايواء العاملة _ المواصات _ التذكرة الداخلية)</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">وعند وجود خلاف حولها فيحق لاحير العالمية للاستقدام اللجوء للمحكمة العامة او المحكمة العمالية بالرياض و مقاضاتي قانونيا بنقض هذه الاتفاقية.</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4>اسم المواطن/................................رقم الهوية الوطنية/...............................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>رقم عقد مساند(..................)</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4> التاريخ /  /2021</h4>
+                    </div>
+                     <br></br>
+                    <div class="row">
+                        <h4>التوقيع/</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h3 style="padding-right:400px">"اتفاقية دفع رسوم الحجر المؤسسي"</h3>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="text-align:right">اتعهد انا الموضحة بياناتي ادناه بدفع رسوم الحجر المؤسسي بمبلغ 3500 ريال بعد التاشير على جواز العاملة ولا يحق لي المطالبة بعدم دفع هذه الرسوم و سيعتبر عقدي لاغي و ساقوم بدفع الغرامة المقررة في عقد مساند للمكتب في حال مخالفة ذلك. </h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>اسم العميل:........................................................................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>رقم الهوية:.....................................................................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>رقم عقد مساند:.....................................................................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>الجنسية:المتعاقد عليها:..........................................................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>تاريخ: / /2021م</h4>
+                        <br></br>
+                        <h4 style="padding-right:200px">توقيع العميل:.................................................................</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>اسم  الموظف المنفذ:...................................................توقيع الموظف المنفذ:.............................................</h4>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <h4><u>حيث يضمن اجير العالمية للاستقدام الاتي:</u></h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>1_ تامين على العاملة اثناء فترة الحجر.</h4>
+                    </div>
+                     <br></br>
+                    <div class="row">
+                        <h4>2_فحص العاملة اثناء القدوم من بلدها وبعد فترة الحجر(2 فحص كورونا) </h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>3_عدد 6 ليالي حجر في احدى الفنادق المعتمدة من وزارة السياحة</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4>وتعتبر هذه رسوم اضافية و ليس لها علاقة بمبلغ التعاقد الفعلي.</h4>
+                    </div>
+                    <br></br>
+                    <div class="row">
+                        <h4 style="direction:right"><u>يتم ايداع التكاليف الاتية للحساب البنكي:</u></h4>
+                        <div class="row" style="padding-right:100px">
+                            <div class="card" style="padding:12px 16px;background:black;color:white;">
+                                <div class="container" style="padding-right: 2px 16px;">
+                                    <h4 style="text-align:right">بنك البلاد:<u>مكتب اجير العالمية للاستقدام</u></h4>
+                                    <br></br>
+                                    <h4>المبلغ المطلوب:<u>3500 ريال(ثلاثة الاف و خمسمائة ريال).</u></h4>
+                                    <br></br>
+                                    <h4 style="text-align:right">رقم الحساب:<u>SA7515000421129624780002</u></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </t>
+        </t>
+    </t>
+  </template>
+</odoo>

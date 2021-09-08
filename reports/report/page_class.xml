@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_page_class">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="row"  style="direction:rtl;padding-right:13px">
+                        <div class="row">
+                            <table style="border:2px solid black;width:800px;height:200px">
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        عقد العمل الخاص بالعمالة
+                                        المنزلية الفلبينية
+                                        المغادرة للمملكة العربية السعودية
+تم إبرام هذا العقد بين كل من:                                               </th>
+                                    <th style="text-align:left">LASTANDARD EMPLOYMENT CONTRACT FOR
+                                        FILIPINO HOUSEHOLD SERVICE WORKERS (HSWs) BOUND FOR
+                                        THE KINGDOM OF SAUDI ARABIA
+                                        <p>:This employment contract is executed and entered by between</p></th>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;padding:12px 16px">
+                                        أ- صاحب العمل:<br></br>
+                                       <div class="card" style="border:2px solid black;
+                                        width:400px;height:40px;padding-right:200px"></div>
+                                    </th>
+                                    <th style="border:1px solid black;text-align:left;padding:12px 16px">
+                                        :A. Employer<br></br>
+                                        <div class="card" style="border:2px solid black;
+                                        width:400px;height:40px;padding:12px 16px"></div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;border:2px solid black">
+                                        رقم التأشيرة الصادرة من وزارة العمل تأشيره رقم:
+                                    </th>
+                                    <th>:Labor of Ministry Saudi by issued Number Visa</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px">
+                                        <table style="border:groove; padding:12px
+                                        16px;width:400px;padding-right:100px">
+                                            <tr>
+                                               <th style="border:groove;text-align:right">هوية:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                                <th style="text-align:right">عنوان:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">شارع:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                                <th style="border:groove;text-align:right">الحي:</th>
+                                                <th sstyle="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">المدينة:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                             <tr>
+                                                <th style="text-align:right">الحالة االجتماعية:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">عدد افراد االسرة:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                                <th style="text-align:right">هاتف:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">رقم الجوال:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                             <tr>
+                                                <th style="text-align:right">الايميل:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+
+                                        </table>
+                                    </th>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px">
+                                        <table style="border: 2px groove; padding:12px
+                                        16px;padding-right:400px;width:400px">
+                                           <tr>
+                                               <th style="border:groove;width:100px"></th>
+                                               <th style="border:groove;text-align:left">ID:</th>
+
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                <th style="text-align:left">Address:</th>
+
+                                            </tr>
+                                            <tr>
+                                                <th style="border:groove;width:100px"></th>
+                                                <th style="border:groove;text-align:left">Street:</th>
+
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="text-align:left">District:</th>
+
+                                            </tr>
+                                            <tr>
+                                                <th style="border:groove;width:100px"></th>
+                                               <th style="border:groove;text-align:left">City:</th>
+
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                <th style="text-align:left">Civil Status:</th>
+
+                                            </tr>
+                                            <tr>
+                                                <th style="border:groove;width:100px"></th>
+                                               <th style="border:groove;text-align:left">Number of Family:</th>
+
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                <th style="text-align:left">Contact Numbers:</th>
+
+                                            </tr>
+                                            <tr>
+                                                <th style="border:groove;width:100px"></th>
+                                               <th style="border:groove;text-align:left">Telephone Number:</th>
+
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                <th style="text-align:left">E-mail:</th>
+
+                                            </tr>
+
+
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px;text-align:right">
+                                        ينوب عنة في المملكة العربية السعودية:
+                                        <table style="border: 2px groove;
+                                         padding:12px16px;padding-right:400px;width:400px">
+                                            <tr>
+                                                <th colspan="2" style="border:2px solid black;text-align:center">مكتب اجير العالمية لالستقدام</th>
+                                            </tr>
+                                            <tr>
+                                                <td style="border:2px solid black;text-align:right">وعنوانه:</td>
+                                                <td style="border:2px solid black;width:100px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td  style="border:2px solid black;text-align:right">ارقام الهواتف:</td>
+                                                <td style="border:2px solid black;width:100px"></td>
+                                            </tr>
+                                        </table>
+
+                                    </th>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px">
+                                        :Represented in the Kingdom of Saudi Arabia
+                                        <table style="border: 2px groove;
+                                         padding:12px16px;padding-right:400px;width:400px">
+                                            <tr>
+                                                <th colspan="2" style="border:2px solid black;text-align:center">Ajer International Recruitment Office</th>
+                                            </tr>
+                                            <tr>
+                                                <td style="border:2px solid black;width:100px"></td>
+                                                <td  style="border:2px solid black;text-align:left">:Address</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border:2px solid black;width:100px"></td>
+                                                <td  style="border:2px solid black;text-align:left">:Contact Numbers</td>
+                                            </tr>
+
+                                        </table>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px;text-align:right">
+                                        ب-
+                                        <table style="border: 2px groove; padding:12px
+                                        16px;padding-right:400px;width:400px">
+                                            <tr>
+                                               <th style="border:groove;text-align:right">اسم العامل / العاملة:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">المهنة / الوظيفة:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">العنوان في الفلبين:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">الحالة االجتماعية:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">ارقام الهواتف:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">رقم جواز السفر:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">تاريخ الاصدار:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">مكان اإلصدار:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                            <tr>
+                                               <th style="border:groove;text-align:right">اسم أحد األقارب:</th>
+                                                <th style="border:groove;width:100px"></th>
+                                            </tr>
+                                        </table>
+                                        عنوان وأرقام الهواتف ألحد األقارب:
+                                    </th>
+                                    <th style="border:2px solid black; width:400px;padding:12px 16px;text-align:left">
+                                        B.
+                                        <table style="border: 2px groove; padding:12px
+                                        16px;padding-right:400px;width:400px">
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:NAME OF WORKER</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:POSITION</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Address in the Philippines</th>
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Civil Status</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Contact Numbers</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Passport Number</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Date of Issue</th>
+                                            </tr>
+                                            <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Place of Issue</th>
+                                            </tr>
+                                             <tr>
+                                                 <th style="border:groove;width:100px"></th>
+                                                 <th style="border:groove;text-align:left">:Name of Next of Kin</th>
+                                            </tr>
+                                        </table>
+                                        :Address and Contact Numbers of Next of Kin
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        <p>ينوب عنه / عنها في الفلبين:</p>
+                                        <p>مكتب االستقدام الفلبيني:</p>
+                                        <br></br>
+                                        <p style="text-align:center">أرقام هواتف المكتب</p>
+                                    </th>
+                                    <th style="border:2px solid black;text-align:left">
+                                        <p>Represented in the Philippines by :</p>
+                                        <p>Philippine Recruitment Agency:</p>
+                                        <br></br>
+                                        <p style="text-align:center">Contact Numbers:</p>
+
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        <p>وبعد التراضي قام الطرفان بااللتزام بالبنود والشروط التالية:</p>
+                                        <p>1 -موقع العمل: الرياض</p>
+                                    </th>
+                                    <th style="border:2px solid black;text-align:left">
+                                        <p>:Voluntarily binding themselves to the following terms and conditions</p>
+                                        <p>1.Site of Employment: Riyadh</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        2-مدة العقد: سنتين من تاريخ مغادرة العامل / العاملة من الفلبين
+ويبدأ الراتب الشهري بعد مباشرة العمل بشكل فعلي.
+                                    </th>
+                                    <th style="border:2px solid black;text-align:left">
+                                        .2. Contract Duration: Two (2) years effective from the date of
+                                         departure of the worker from the Philippines. The monthly salary shall
+                                           start upon actual reporting to work
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        3-الراتب الشهري األساسي: يتم االتفاق بين صاحب العمل
+                                        والعامل / العاملة تمشياً المنزلية على أن يكون الراتب الشهر ٤٠٠
+                                        دوالر مع األنظمة والقوانين المرعية في كال البلدين.
+                                    </th>
+                                    <th style="border:2px solid black;text-align:left">3. The Household
+                                        Service Worker and the employer agree on a monthly salary of US$ 400 which
+                                        is in accordance with the laws
+                                        and regulations prevailing in both countries</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">4 .-يقوم صاحب العمل بفتح حساب
+                                        بنكي الخاص للعامل / العاملة المنزلية في المملكة العرب السعودية طبقا قد السعودي ويقوم ً
+                                        ألنظمة وقوانين مؤسسة الن بإيداع راتب العامل / العاملة المنزلية
+                                        في نهاية كل شهر بانتظام في الحساب المشار إليه. يعطى للعامل / العاملة
+                                        المنزلية دفتر البنك أو زلة الودائع المصرفية أو ما يعادل وأن يبقى في
+                                        حوزته / حوزتها. كما يقوم صاحب العمل بتقديم المساعدة للعامل / العاملة
+                                        المنزلية في تحويل رواتبها عبر القنوات المصرفية النظامية.</th>
+                                    <th style="border:2px solid black;text-align:left">4. The employer shall open a bank account for
+                                        the HSW in KSA subject to SAMA rules and regulations and shall regularly
+                                        deposit every end of the month the salary of the HSW to the said account.
+                                        The passbook or deposit slip or their equivalent shall be given to the HSW
+                                        and remain in his/her custody. The employer shall help the How-to
+                                        remit his/her salary through proper banking channels.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">5-تمكين العامل / العاملة
+                                        المنزلية من راحة متواصلة ال تقل عن )٨ )ساعات يوميا.</th>
+                                    <th style="border:2px solid black;text-align:left">5. The Household Service Worker
+                                        shall be provided with continuous rest of at least (8) hours per day</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">.األسبوع في واحد يوم عن يقل ال: راحة يوم-6</th>
+                                    <th style="border:2px solid black;text-align:left">5. The Household Service Worker shall be provided with continuous
+                                        rest of at least (8) hours per day.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">7-النقل المجاني إلى موقع العمل والعودة إلى نقطة االستقدام األصلية بعد انتهاء
+                                        العقد، وضمان تسفير العامل / العاملة في وقته.
+                                        ويتحمل صاحب العمل تكاليف سفر وعودة العامل / العاملة المنزلية إلى الفلبين
+                                        في حالة إلغاء العقد ألسباب ال يرجع إلى العامل / العاملة المنزلية</th>
+                                    <th style="border:2px solid black;text-align:left">7- Free transportation to the site of employment and back to the point
+                                        of origin upon expiration of contract and ensure the worker's timely
+                                        repatriation. In case of termination for reasons not attributable to the
+                                        worker, the employer shall bear the cost of repatriation of the worker
+                                        to the Philippines.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">8 -يتحمل صاحب العمل بتأمين للعامل / العاملة المنزلية
+                                        السكن المالئم واألكل
+                                        الكافي، أو تعويض ذلك ببدل مادي.</th>
+                                    <th style="border:2px solid black;text-align:left">8-The employer shall
+                                        provide the Household Service Worker suitable
+                                        and sanitary living quarters as well as adequate food or equivalent
+                                        monetary allowance. </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">9 -يتحمل صاحب العمل التكاليف العالجية / الطبية ألسباب مقبولة طبياً ويسمح
+                                        للعاملة المنزلية بالراحة، وتستمر في تقاضي راتبها النظامي.</th>
+                                    <th style="border:2px solid black;text-align:left">9-For acceptable medical reasons,
+                                        the HSW shall be allowed to rest and
+                                        shall continue to receive his/her regular salary. The employer shall
+                                        shoulder the medical expenses. </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">10 -للعاملة المنزلية حق العودة إلى الفلبين لقضاء إجازة مدفوعة األجر بمعدل
+                                        )٣٠ )يوماً عن كل سنتين خدمة، مع تأمين تذكرة سفر ذهاب وعودة بالدرجة السياحية.
+                                        وفي حالة الرغبة في االستمرار في العمل فإنها تستحق راتب شهر إضافي</th>
+                                    <th style="border:2px solid black;text-align:left">10-The HSW is entitled to return to the Philippines to spend his/her paid
+                                        vacation leave of thirty (30) days for every two years of service with a
+                                        round-trip economy class ticket. In case of his/her desire to continue
+                                        working with the employer, he/she is entitled to an additional onemonth salary.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">1 -في حالة الوفاة، يكون صاحب العمل مسئوالً عن ترحيل جثة العامل /
+                                        العاملة المنزلية ومتعلقاتها الشخصية إلى الفلبين في أقرب وقت ممكن قانونيا
+                                        وبدون تأخير غير مبرر. وفي حالة عدم إمكانية ترحيل الجثة، يمكن دفنها بعد
+                                        الحصول على موافقة أحد أقرباء العامل / العاملة المنزلية أو السفارة الفلبينية.</th>
+                                    <th style="border:2px solid black;text-align:left">11- In case of death, the employer is responsible for the repatriation of
+                                        the HSW's remains and personal belongings to the Republic of the
+                                        Philippines as soon as legally possible and without undue delay. In case
+                                        the repatriation of remains is not possible, the same may be disposed of
+                                        after obtaining the approval of one of the HSW's next of kin or by the
+                                        Philippine Embassy</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">2-في حالة نشوء نزاع بين صاحب
+                                        العمل والعاملة المنزلية، يمكن لكال طرفي
+                                        العقد إحالة النزاع إلى الجهات السعودية المختصة للتقاضي والتسوية.</th>
+                                    <th style="border:2px solid black;text-align:left">12- In case of dispute between the employer and the HSW, the two
+                                        contracting parties may refer the dispute to the appropriate Saudi
+                                        authorities for conciliation and/or resolution.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">3 -في حالة هروب العامل / العاملة المنزلية أو رفض العمل دون أسباب مقبولة
+                                        فإن مكتب االستقدام الفلبيني يتحمل تكاليف تأمين بديل للعامل/ العاملة
+                                        المنزلية أو إعادة تكاليف االستقدام حسب العقد الموقع بين صاحب العمل
+                                        ومكتب االستقدام السعودي ومكتب االستقدام الفلبيني.</th>
+                                    <th style="border:2px solid black;text-align:left">13-In case the Household Service Worker runs away or refuses to work
+                                        without valid causes, the Philippine recruitment agency shall be
+                                        responsible in having him/her replaced or in returning the accrued cost
+                                        of recruitment to his/her employer, as per agreement between the employer,
+                                        the Saudi recruitment agency and the Philippine recruitment
+                                        agency.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">
+                                        <p>4 .البنود الخاصة:</p>
+                                        <p>أ- ستكون المسئولية عن إشعار صاحب العمل بوصول العاملة المنزلية في
+                                            المملكة على عانق مكتب تصدير العمالة الفلبينية بالتنسيق مع مكتب االستقدام
+                                            السعودي.</p>
+                                        <p>ب- يتعامل صاحب العمل وأفراد أسرته والعاملة المنزلية في المملكة مع بعضهم
+                                            البعض بمعاملة حسنة وباحترام وكرامة.</p>
+                                        <p>ج- تعمل العاملة المنزلية لدى صاحب العمل وألعضاء أسرته فقط.</p>
+                                        <p>د- ال يخصم صاحب العمل أي مبلغ من الراتب النظامي للعاملة المنزلية، وإن تم
+                                            الخصم ألسباب قانونية ونظامية فإنه يجب إبراز تلك الخصومات في مسيرات
+                                            رواتب العاملة.</p>
+                                        <p> هـ- يقوم صاحب العمل بدفع رسوم اإلقامة والخروج والعودة والخروج النهائي
+                                            للعاملة المنزلية، باإلضافة إلى
+                                            رسوم التجديد والغرامات المترتبة على التأخير.</p>
+                                        <p>و- يكون جواز السفر وبطاقة اإلقامة في حوزة العاملة المنزلية.</p>
+                                        <p>ز- يسمح للعاملة المنزلية باالتصال الهاتفي بحرية بعائلتها أو بالسفارة /
+                                            القنصلية الفلبينية وذلك على حسابها الشخصي.</p>
+                                        <p>ط- يشرح صاحب العمل فقرات هذا العقد ألفراد أسرته والتأكيد لهم بضرورة
+                                            االلتزام بها.</p>
+                                    </th>
+                                    <th style="border:2px solid black;text-align:left">
+                                        <p>14-Special Provisions:</p>
+                                        <p>a) The responsibility of informing the employer regarding the
+                                            departure and arrival of the HSW in the Kingdom of Saudi Arabia shall
+                                            be that of the Philippine recruitment agency in coordination with the
+                                            Saudi recruitment agency.</p>
+                                        <p>b) The employer and his family members, and the HSW shall treat one
+                                            another with respect and dignity.</p>
+                                        <p>c) The HSW shall work solely for the employer and his immediate
+                                            household.</p>
+                                        <p>d)The employer shall not deduct any amount from the regular salary of
+                                            the Household Service Worker. In case of deductions for lawful
+                                            reasons, such deductions must be reflected in the HSW's pay slip</p>
+                                        <p>e) The employer shall pay the cost of the Household Service Worker's
+                                            residence permit (iqama), exit/re-entry visa, and final exit visa,
+                                            including the renewals and penalties resulting from delays.</p>
+                                        <p>f- The passport and work permit (iqama) of the worker
+                                            shall remain in his/her possession.</p>
+                                        <p>g) The Household Service Worker shall be allowed to freely
+                                            communicate with his/her family and the Philippine Embassy /
+                                            Consulate on his/her personal expense or account.</p>
+                                        <p>h) The employer shall explain to the members of his household the
+                                            provisions of this contract and ensure that these are observed.</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">5 .يمكن تعديل أي فقرة من فقرات هذا العقد القياسي عبر اللجنة الفنية السعودية
+                                        الفلبينية المشتركة.</th>
+                                    <th style="border:2px solid black;text-align:left">15. Any provision of this standard employment contract may be
+                                        altered, amended or substituted through the Saudi-Philippine Joint
+                                        Technical Working Committee.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">6 .في حالة نشوب الحرب أو االضطرابات المدنية أو وقوع الكوارث الطبيعية
+                                        ض خطير أو اإلصابة أثناء العمل والتي يثبت طبياً أو تعرض العاملة المنزلية لمر
+                                        عدم قدرتها على إكمال العقد، يقوم صاحب العمل بتسفير العاملة المنزلية على
+                                        حسابه.</th>
+                                    <th style="border:2px solid black;text-align:left">16. The worker shall be repatriated at the employer's expense
+                                        in the event of war, civil disturbance or major natural
+                                        calamity, or in case the worker suffers from serious illness or
+                                        work injury medically proven to render him/her incapable of
+                                        completing the contract.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">7 .بعد انتهاء العقد ورغبة العاملة المنزلية في العودة إلى الفلبين، يقوم صاحب
+                                        العمل بإحضار كشف الحساب البنكي الخاص بالعاملة المنزلية لمكتب االستقدام
+                                        السعودي، ويقوم صاحب العمل والعاملة المنزلية بالتوقيع على مخالصة نهائية.
+                                        ويمكن تقديم كشف الحسابات المشار إليه وإثباتات المخالصة كأدلة قاطعة في كل
+                                        من المملكة العربية السعودية وجمهورية الفلبين.</th>
+                                    <th style="border:2px solid black;text-align:left">17.After the expiration of the contract and the HSW desires
+                                        to return the Philippines, the employer shall present the bank
+                                        statement of the HSW to the Saudi recruitment agency, and
+                                        the employer and the worker shall then sign a final settlement.
+                                        Such bank statement and proof of settlement may be submitted
+                                        as evidence in the Philippines and in the KSA.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">8 .يتجدد هذا العقد بناء على االتفاق بين العامل / العاملة المنزلية مع صاحب
+                                        العمل. وفي حالة تجديد العقد يتم تزويد السفارة أو القنصلية الفلبينية بصورة من
+                                        بطاقة اإلقامة المجددة بواسطة صاحب العمل أو مكتب االستقدام السعودي</th>
+                                    <th style="border:2px solid black;text-align:left">18. This contract may be renewed upon the agreement of the
+                                        worker and his/her employer. Should the contract be
+                                        renewed, a copy of the renewed iqama shall be submitted to
+                                        the Philippine Embassy/Consulate by the employer or Saudi
+                                        recruitment agency.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:right">9 .حرر هذا العقد من نسختين أصليتين باللغة اإلنجليزية والعربية، ويتم االعتماد
+                                        عليهما والعمل بموجبهما بالتساوي.</th>
+                                    <th style="border:2px solid black;text-align:left">19. This contract shall be written in two original copies in the
+                                        English and Arabic text, both copies being equally authentic.</th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:center;height:200px">
+                                        <br></br>
+                                        <br></br>
+                                        <h1 style="border:2px solid black;width:400px;padding-right:12px"></h1>
+                                        <p>Name of Employer and signature </p>
+                                        <p>اسم وتوقيع صاحب العمل </p>
+                                    </th>
+                                    <th style="border:2px solid black;text-align:center;height:200px">
+                                        <br></br>
+                                        <br></br>
+                                        <h1 style="border:2px solid black;width:400px;padding-right:12px"></h1>
+                                        <p>Name of HouseHOLD service worker and signature</p>
+                                        <p>اسم وتوقيع العامل / العاملة المنزلية</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border:2px solid black;text-align:center;height:200px">
+                                        <br></br>
+                                        <br></br>
+                                        <h1 style="border:2px solid black;width:400px;padding-right:12px"></h1>
+                                        <p>Saudi Recruitment Agency</p>
+                                        <p>مكتب االستقدام السعودي</p>
+                                    </th>
+                                    <th style="border:2px solid black;text-align:center;height:200px">
+                                        <br></br>
+                                        <br></br>
+                                        <h1 style="border:2px solid black;width:400px;padding-right:12px"></h1>
+                                        <p>Philippine Recruitment Agency</p>
+                                        <p>مكتب إرسال العمالة الفلبينية</p>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
